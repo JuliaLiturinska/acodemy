@@ -1,5 +1,9 @@
 package practice;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class PrimitiveType {
     public static void main(String[] args) {
 
@@ -57,6 +61,14 @@ public class PrimitiveType {
 
         // Boolean
         boolean isStudent = true; // student li?
+
+        int x = 1;
+        double y = 2.0;
+         int z = x + Integer.valueOf("2");
+        System.out.println("This is z: " + z);
+
+
+
 
 
 
