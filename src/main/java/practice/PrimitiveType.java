@@ -64,8 +64,11 @@ public class PrimitiveType {
 
         int x = 1;
         double y = 2.0;
-         int z = x + Integer.valueOf("2");
-        System.out.println("This is z: " + z);
+       //  int z = x + Integer.valueOf("2");
+       // System.out.println("This is z: " + z);
+
+        List <Integer> listOfGrades = new ArrayList<>();
+        listOfGrades.add(8);
 
 
 
